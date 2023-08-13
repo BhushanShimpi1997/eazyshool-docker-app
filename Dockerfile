@@ -3,7 +3,7 @@ FROM openjdk:17
 
 MAINTAINER bhushan shimpi<bhushan.shimpi@gmail.com>
 
-COPY target/EazySchoolApp-release-1.0.jar  /usr/app
+ADD target/EazySchoolApp-release-1.0.jar  /usr/app/EazySchoolApp-release-1.0.jar
 
 WORKDIR /usr/app
 
