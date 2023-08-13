@@ -20,5 +20,5 @@ services:
       - MYSQL_DATABASE=eazyschool
     volumes:
       - /data/mysql
-  networks:
+networks:
     springboot-db-net:
